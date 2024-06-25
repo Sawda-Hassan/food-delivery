@@ -22,3 +22,8 @@ a{
   font-size: 18px;
 
 }
+
+.navbar .active{
+  padding-bottom: 2px;
+  border-bottom: 2px solid green;
+}
