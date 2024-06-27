@@ -3,6 +3,7 @@ import Cart from './Pages/Cart/Cart'
 import Home from './Pages/Home/Home'
 import placeOrder from './Pages/place-order/placeOrder'
 import Navbar from './Components/navbar/Navbar'
+import Header from './Components/Header/Header'
 import { assets } from './assets/assets'
 import { Route, Routes } from 'react-router-dom'
 function App() {
