@@ -116,7 +116,7 @@ export const menu_list = [
         menu_image: menu_8
     }]
 
-export const foods = [
+export const foodlist = [
     {
         _id: "1",
         name: "Greek salad",
