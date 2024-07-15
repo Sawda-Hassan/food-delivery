@@ -43,6 +43,17 @@ import food_29 from './food_29.png'
 import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
+import food_33 from './food_33.jpeg'
+import food_34 from './food_34.jpg'
+import food_38 from './food_38.jpg'
+import food_40 from './food_40.jpg'
+import food_43 from './food_43.jpg'
+import food_44 from './food_44.jpg'
+import food_45 from './food_45.jpg'
+
+
+
+
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -114,7 +125,9 @@ export const menu_list = [
     {
         menu_name: "Noodles",
         menu_image: menu_8
-    }]
+     },
+      
+    ]
 
 export const foodlist = [
     {
@@ -146,7 +159,25 @@ export const foodlist = [
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad"
-    }, {
+    }, 
+{
+    _id: "40",
+    name: "Avocados Salad",
+    image: food_40,
+    price: 15,
+    description: "Food provides essential nutrients for overall health and well-being",
+    category: "Salad"
+},
+{
+_id: "38",
+name: "Avocado Salad",
+image: food_38,
+price: 15,
+description: "Food provides essential nutrients for overall health and well-being",
+category: "Salad"
+}
+,
+{
         _id: "5",
         name: "Lasagna Rolls",
         image: food_5,
@@ -174,7 +205,9 @@ export const foodlist = [
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Rolls"
-    }, {
+    },
+    
+  {
         _id: "9",
         name: "Ripple Ice Cream",
         image: food_9,
@@ -232,7 +265,8 @@ export const foodlist = [
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Sandwich"
-    }, {
+    },
+     {
         _id: "17",
         name: "Cup Cake",
         image: food_17,
@@ -347,4 +381,23 @@ export const foodlist = [
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
     }
+    ,
+    {
+        _id: "33",
+        name: "Cooked Noodle",
+        image: food_33,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    }
+    ,
+    {
+        _id: "43",
+        name: "Cooked Noodle",
+        image: food_43,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    }
+    
 ]

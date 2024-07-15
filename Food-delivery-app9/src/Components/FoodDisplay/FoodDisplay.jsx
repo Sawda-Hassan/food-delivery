@@ -6,24 +6,33 @@ import './FoodDisplay.css';
 function FoodDisplay({ category }) {
   const { foodlist } = useContext(StoreContext); // Use foodlist instead of foodList
 
+  const getTitle = (category) => {
+    if (category === "All") {
+      return "Top dishes near you";
+    } else {
+      return `Top ${category} dishes near you`;
+    }
+  };
+
   return (
     <div className="food-display" id="food-display">
-      <h2>Top dishes near you</h2>
+      <h2>{getTitle(category)}</h2>
       <div className="food-display-list">
-        {foodlist && foodlist.length > 0 ? (
-          foodlist.map((item, index) => (
-            <FoodItem
-              key={index}
-              id={item.id}
-              name={item.name}
-              description={item.description}
-              price={item.price}
-              image={item.image}
-            />
-          ))
-        ) : (
-          <p>No food items available.</p>
-        )}
+        {foodlist.map((item, index) => {
+          if (category === "All" || category === item.category) {
+            return (
+              <FoodItem
+                key={index}
+                id={item.id}
+                name={item.name}
+                description={item.description}
+                price={item.price}
+                image={item.image}
+              />
+            );
+          }
+          return null;
+        })}
       </div>
     </div>
   );

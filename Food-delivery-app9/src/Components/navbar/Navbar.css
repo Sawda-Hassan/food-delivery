@@ -4,11 +4,9 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
-.navbar .logo{
-    width: 150px;
 
 
-}
+
 .navbar-menu{
     display: flex;
     gap: 20px;

@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { assets } from '../../assets/assets'
+import myImage from '../../Components/logo3.png';
 function Navbar() {
     const [menu,setmenu]=useState("menu")
   return (
     <div className='navbar'>
-        <img src={assets.logo}/>
-        <ul   className='navbar-menu'> 
+      <img src={assets.logo} alt="" />
+
+        <ul  className='navbar-menu'> 
         <li onClick={()=>setmenu("home")}className={menu==="home"?"active":""}>home</li>
         <li onClick={()=>setmenu("menu")}className={menu==="menu"?"active":""}>menu</li>
         <li onClick={()=>setmenu("mobile-apps")}className={menu==="mobile-apps" ?"active":""}>mobile-app</li>

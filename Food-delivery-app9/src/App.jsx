@@ -6,8 +6,10 @@ import Navbar from './Components/navbar/Navbar'
 import Header from './Components/Header/Header'
 import { assets } from './assets/assets'
 import { Route, Routes } from 'react-router-dom'
+import Footer from './Components/Footer/Footer'
 function App() {
   return (
+   <>
     <div className='app'>
       <Navbar/>
       <Routes>
@@ -16,8 +18,11 @@ function App() {
         <Route path='/order' element={<placeOrder/>}/>
 
       </Routes>
+   
       
     </div>
+    <Footer />
+   </>
   )
 }
 
