@@ -58,13 +58,13 @@ align-items: center;
         font-size: 17px;
 
     }
-    .navbar-right{
+    .navbar-light{
         gap: 30px;
     }
-    .navbar-right img{
+    .navbar-light img{
         width: 22px;
     }
-    .navbar-right button{
+    .navbar-light button{
         padding: 8px 25px;
     }
 
@@ -79,13 +79,13 @@ align-items: center;
         font-size: 16px;
 
     }
-    .navbar-right{
+    .navbar-light{
         gap: 20px;
     }
-    .navbar-right img{
+    .navbar-light img{
         width: 22px;
     }
-    .navbar-right button{
+    .navbar-light button{
         padding: 7px 20px;
         font-size: 15px;
     }
