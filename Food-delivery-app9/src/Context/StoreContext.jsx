@@ -1,4 +1,3 @@
-// StoreContext.js
 import React, { createContext, useState, useEffect } from 'react';
 import { foodlist } from '../assets/assets'; // Assuming foodlist is defined in assets/assets.js
 
@@ -26,15 +25,22 @@ const StoreContextProvider = (props) => {
     });
   };
 
-  useEffect(() => {
-    console.log(cartItems);
-  }, [cartItems]);
-
+const getTotalCartAmount=()=>{
+  let TtotalAmount=0;
+  for(const item in cartItems){
+    if(cartItems[item]>0){
+      let itemINFO=foodlist.find((product)=>product.id==item)
+      TtotalAmount+=itemINFO.price* cartItems[item]
+    }
+  }
+  return TtotalAmount;
+}
   const contextValue = {
     foodlist, // Ensure this matches the variable name used in useContext
     cartItems,
     addToCart,
     removeFromCart,
+    getTotalCartAmount
   };
 
   return (

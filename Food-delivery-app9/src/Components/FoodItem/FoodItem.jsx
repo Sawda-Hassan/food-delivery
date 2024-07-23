@@ -34,6 +34,7 @@ function FoodItem({ id, name, description, price, image }) {
       <div className='food-item-info'>
         <div className='food-item-name-rating'>
           <p>{name}</p>
+          {/* Assuming assets.rating_starts is defined */}
           <img src={assets.rating_starts} alt="Rating" />
         </div>
         <p className='food-item-desc'>{description}</p>
