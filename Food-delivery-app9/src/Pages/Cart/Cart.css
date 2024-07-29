@@ -85,3 +85,13 @@ cursor: pointer;
 
 
 }
+@media(max-widh:750px){
+    .cart-button{
+        flex-direction: column-reverse;
+    }
+    .cart-promocode{
+        justify-content:start ;
+    }
+}
+ 
+    
