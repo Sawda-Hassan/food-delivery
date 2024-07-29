@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Cart from './Pages/Cart/Cart'
 import Home from './Pages/Home/Home'
-import placeOrder from './Pages/place-order/placeOrder'
+import  PlaceOrders from './Pages/PlaceOrders/PlaceOrders'
 import Navbar from './Components/navbar/Navbar'
 import Header from './Components/Header/Header'
 import { assets } from './assets/assets'
@@ -18,11 +18,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/cart' element={<Cart/>}/>
-        <Route path='/order' element={<placeOrder/>}/>
+        <Route path='/order' element={<PlaceOrders/>}/>
 
       </Routes>
-   
-      
     </div>
     <Footer />
    </>
