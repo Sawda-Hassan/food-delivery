@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import './Navbar.css'
 import { assets } from '../../assets/assets'
-import myImage from '../../Components/logo3.png';
+import myImage from '../../Components/logo7-01.jpg';
 import { Link } from 'react-router-dom';
 import { StoreContext } from '../../Context/StoreContext';
 function Navbar({setshowlogin}) {
@@ -9,12 +9,13 @@ function Navbar({setshowlogin}) {
     const{getTotalCartAmount}=useContext(StoreContext)
   return (
     <div className='navbar'>
-     <Link  to=''> <img src={assets.logo} alt="" /></Link>
+     <Link  to=''><img src={myImage} alt="" width="110" height="60" />
+     </Link>
 
         <ul  className='navbar-menu'> 
         < Link to='/' onClick={()=>setmenu("home")}className={menu==="home"?"active":""}>home</Link>
         <a href='#explore-menu' onClick={()=>setmenu("menu")}className={menu==="menu"?"active":""}>menu</a>
-        <a href='#app-download' onClick={()=>setmenu("app-download")}className={menu==="app-download" ?"active":""}>mobile-app</a>
+        <a href='#app-download' onClick={()=>setmenu("mobile-app")}className={menu==="mobile-app" ?"active":""}>mobile-app</a>
         <a  href ='#footer'onClick={()=>setmenu("contact-us")}className={menu==="contact-us" ?"active":""}>Contact us</a>
 
 

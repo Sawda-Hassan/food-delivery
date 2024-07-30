@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets'
 function AppDownload() {
   return (
     <div className='app-download' id='app-downlaod'>
-    <p>for better Experince Download <br />Tomato-App</p>
+    <p>for better Experince Download <br />Food-delivery-app</p>
    <div className='app-downlaod-platforms'>
     <img src={assets.play_store} alt="" />
     <img src={assets.app_store} alt="" />
