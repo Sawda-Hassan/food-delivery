@@ -1,10 +1,13 @@
 
 Food Delivery The food delivery app is front-end platform where users can order thier meals of their preferred one. Features
 
-Menu Management: Showcasing a wide variety of different types of food. Users can filter and sort menu items based on various criteria
-Food Listing: The app will feature an intuitive and visually appealing food listing section.
-Shopping Cart: Customers can easily add their desired menu items to a personalized shopping cart.
-Sign-in: The app will offer sign-in experience, enabling users to create accounts.
+1.Menu Management: Showcasing a wide variety of different types of food. Users can filter and sort menu items based on various criteria
+
+2.Food Listing: The app will feature an intuitive and visually appealing food listing section.
+
+3.Shopping Cart: Customers can easily add their desired menu items to a personalized shopping cart.
+
+4.Sign-in: The app will offer sign-in experience, enabling users to create accounts.
 Technologies Used React: The application is built using the React JavaScript library for building user interfaces.
 
 Getting Started To run the Food Delivery application locally, follow these steps:
