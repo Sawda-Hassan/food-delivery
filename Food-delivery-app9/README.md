@@ -11,7 +11,7 @@ The core features of the website include:
 
 
 
-Getting Started To run the Food Delivery application locally, follow these steps:
+Getting Started To run the Food Delivery application locally, follow these steps:S
 Clone the repository: git clone:https://github.com/Sawda-Hassan/food-delivery.git 
 Navigate to the project's root directory: cd Food-delivery-app9 && npm install Start the development server: npm run dev Open the application in your browser at http://localhost:5177/.
 
