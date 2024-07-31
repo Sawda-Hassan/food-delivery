@@ -20,4 +20,4 @@ Deployment The Food Delivery application is deployed on Vercel website and can b
 
 Technologies
 React
-CSS
+CSS.
